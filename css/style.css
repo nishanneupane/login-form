@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background: black;
+}
+.container,.signup{
+    transform: skew(30deg);
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid rgb(34, 37, 37);
+    border-radius: 20px;
+    box-shadow: 5px 30px 20px 5px rgb(25, 233, 233);
+}
+input{
+    width: 95%;
+    margin: 5px 2.5%;
+    padding: 2px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid aqua;
+    background: transparent;
+    color: aqua;
+    text-align: left;
+}
+button{
+    width: 50%;
+    margin: 5px 25%;
+    padding: 3px;
+    height: 40px;
+    background-color: aqua;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+}
+button:hover{
+    transition: 0.4s ease;
+    background: rgb(0, 189, 189);
+    color: beige;
+    box-shadow: 3px 7px 5px 2px aqua;
+}
+p{
+    text-align: center;
+    margin: 12px;
+    font-size: small;
+    color: #fff;
+}
+p a{
+    text-decoration: none;
+    color: aqua;
+}
+span{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: aqua;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin: 5px;
+    text-shadow: 0px 3px 5px rgb(34, 37, 37);
+}
+.signup{
+    box-shadow: 5px 20px 20px 5px rgb(49, 233, 25);
+    transform: skew(-15deg,5deg);
+}
+.signup input{
+    color: rgb(32, 207, 32);
+    border: 1px solid rgb(32, 207, 32);;
+}
+.signup button{
+    margin-top: 15px auto;
+    background: rgb(32, 207, 32);
+}
+.signup button:hover{
+    background: rgb(22, 216, 22);
+    transition: 0.4s ease;
+    color: beige;
+    box-shadow: 3px 7px 5px 2px rgb(28, 224, 28);
+
+}
+.signup span{
+    color: green;
+}
